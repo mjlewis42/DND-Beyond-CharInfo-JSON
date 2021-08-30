@@ -31,10 +31,10 @@
             echo "Current XP:  " . $decodedData['data']['currentXp'] . '<br>';
             echo "------------------- Race Info ------------------------ <br>";
             echo "isHomebrew:  " . $decodedData['data']['race']['isHomebrew'] . '<br>';
-            echo "hasSubRace:  " . $decodedData['data']['race']['isSubRace'] . '<br>';
-            echo "Base Race Name:  " . $decodedData['data']['race']['baseRaceName'] . '<br>';
-            echo "Sub Race Name:  " . $decodedData['data']['race']['subRaceShortName'] . '<br>';
-            echo "Full Race Name:  " . $decodedData['data']['race']['fullName'] . '<br>';
+            echo "hasSubCulture:  " . $decodedData['data']['race']['isSubRace'] . '<br>';
+            echo "Base Culture Name:  " . $decodedData['data']['race']['baseRaceName'] . '<br>';
+            echo "Sub Culture Name:  " . $decodedData['data']['race']['subRaceShortName'] . '<br>';
+            echo "Full Culture Name:  " . $decodedData['data']['race']['fullName'] . '<br>';
             echo "------------------- Class Info ------------------------ <br>";
             echo "isHomebrew:  " . $decodedData['data']['classes'][0]['definition']['isHomebrew'] . '<br>' ;
             echo "isStartingClass:  " . $decodedData['data']['classes'][0]['isStartingClass'] . '<br>' ;
@@ -50,7 +50,7 @@
             echo "Wisdom:  " . $decodedData['data']['stats'][4]['value'] . '<br>';
             echo "Charisma:  " . $decodedData['data']['stats'][5]['value'] . '<br>';
             echo "--------------- Racial Bonuses -------------------- <br>";
-            echo "Racial Description =>  " . $decodedData['data']['race']['description'] .  '<br>';
+            echo "Description =>  " . $decodedData['data']['race']['description'] .  '<br>';
            
             echo "---------------------- Inventory ------------------------ <br>";
             $i = 0;
